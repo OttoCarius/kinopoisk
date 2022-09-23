@@ -1,13 +1,24 @@
 {
   "files": {
-    "main.css": "/kinopoisk/static/css/main.7acaea2f.css",
-    "main.js": "/kinopoisk/static/js/main.9795937b.js",
+    "main.css": "/kinopoisk/static/css/main.34a7b7dd.css",
+    "main.js": "/kinopoisk/static/js/main.7085de43.js",
+    "static/js/186.6f63400d.chunk.js": "/kinopoisk/static/js/186.6f63400d.chunk.js",
+    "static/js/386.df2ca536.chunk.js": "/kinopoisk/static/js/386.df2ca536.chunk.js",
+    "static/js/909.90c4e8c1.chunk.js": "/kinopoisk/static/js/909.90c4e8c1.chunk.js",
+    "static/js/576.fe14d71d.chunk.js": "/kinopoisk/static/js/576.fe14d71d.chunk.js",
+    "static/js/724.10d1f3ed.chunk.js": "/kinopoisk/static/js/724.10d1f3ed.chunk.js",
+    "static/media/placeholder.png": "/kinopoisk/static/media/placeholder.74f5b4f58f10eebe24ec.png",
     "index.html": "/kinopoisk/index.html",
-    "main.7acaea2f.css.map": "/kinopoisk/static/css/main.7acaea2f.css.map",
-    "main.9795937b.js.map": "/kinopoisk/static/js/main.9795937b.js.map"
+    "main.34a7b7dd.css.map": "/kinopoisk/static/css/main.34a7b7dd.css.map",
+    "main.7085de43.js.map": "/kinopoisk/static/js/main.7085de43.js.map",
+    "186.6f63400d.chunk.js.map": "/kinopoisk/static/js/186.6f63400d.chunk.js.map",
+    "386.df2ca536.chunk.js.map": "/kinopoisk/static/js/386.df2ca536.chunk.js.map",
+    "909.90c4e8c1.chunk.js.map": "/kinopoisk/static/js/909.90c4e8c1.chunk.js.map",
+    "576.fe14d71d.chunk.js.map": "/kinopoisk/static/js/576.fe14d71d.chunk.js.map",
+    "724.10d1f3ed.chunk.js.map": "/kinopoisk/static/js/724.10d1f3ed.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.9795937b.js"
+    "static/css/main.34a7b7dd.css",
+    "static/js/main.7085de43.js"
   ]
 }
