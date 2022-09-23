@@ -25,7 +25,7 @@ const HomePage = () => {
       setTrends(movies);
     } catch (error) {
       console.error('Smth wrong with homepage trends fetch', error);
-      setError(error.message); // Почему не пишет?
+      setError(error.message);
     } finally {
       setLoading(false);
     }
