@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkkinopoisk_git=self.webpackChunkkinopoisk_git||[]).push([[576],{9576:function(n,i,t){t.r(i),t.d(i,{default:function(){return e}});t(2791);var u=t(184);function e(){return(0,u.jsx)("div",{children:"PageNotFound"})}}}]);
-//# sourceMappingURL=576.fe14d71d.chunk.js.map
