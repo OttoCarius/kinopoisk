@@ -67,7 +67,7 @@
 //   border: 0;
 // `;
 
-// export const StyledInput = styled.input`
+// export const Input = styled.input`
 //   font-family: Georgia, serif;
 //   font-size: 22px;
 //   letter-spacing: 0.8px;
@@ -91,4 +91,3 @@
 //     font: inherit;
 //     font-size: 18px;
 //   }
-// `;
