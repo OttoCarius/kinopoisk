@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkkinopoisk_git=self.webpackChunkkinopoisk_git||[]).push([[386],{2386:function(i,n,e){e.r(n),e.d(n,{default:function(){return u}});e(2791);var t=e(184);function u(){return(0,t.jsx)("div",{children:"MoviesPage"})}}}]);
-//# sourceMappingURL=386.df2ca536.chunk.js.map
