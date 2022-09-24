@@ -1,16 +1,16 @@
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 
-const Message = ({ children }) => <div>{children}</div>;
+// const Message = ({ children }) => <div>{children}</div>;
 
-Message.defaultProps = {
-  children: [],
-};
+// Message.defaultProps = {
+//   children: [],
+// };
 
-Message.propTypes = {
-  children: PropTypes.node,
-};
+// Message.propTypes = {
+//   children: PropTypes.node,
+// };
 
-export default Message;
+// export default Message;
 
 // import PropTypes from 'prop-types';
 // import { BoxMessage } from './Message.styled';
