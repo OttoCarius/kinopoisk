@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/909.90c4e8c1.chunk.js","mappings":"oLAEe,SAASA,IACtB,OAAO,6CACR,C","sources":["pages/MovieDetailsPage/MovieDetailsPage.js"],"sourcesContent":["import React from 'react';\n\nexport default function MovieDetailsPage() {\n  return <div>MovieDetailsPage</div>;\n}\n"],"names":["MovieDetailsPage"],"sourceRoot":""}

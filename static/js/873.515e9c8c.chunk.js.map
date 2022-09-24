@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/873.515e9c8c.chunk.js","mappings":"oLAEe,SAASA,IACtB,OAAO,yCACR,C","sources":["components/MovieReviews/MovieReviews.js"],"sourcesContent":["import React from 'react';\n\nexport default function MovieReviews() {\n  return <div>MovieReviews</div>;\n}\n"],"names":["MovieReviews"],"sourceRoot":""}
