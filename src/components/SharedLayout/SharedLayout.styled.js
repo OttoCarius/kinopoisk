@@ -6,6 +6,7 @@ export const MainContainer = styled.div`
   display: flex;
   align-items: center;
   flex-direction: column;
+
   @media screen and (min-width: 480px) {
     width: 480px;
   }
@@ -15,8 +16,6 @@ export const MainContainer = styled.div`
     width: 768px;
   }
   @media screen and (min-width: 1280px) {
-    padding-left: 115px;
-    padding-right: 115px;
     width: 1280px;
   }
 `;

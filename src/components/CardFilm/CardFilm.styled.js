@@ -10,7 +10,7 @@ export const Item = styled.li`
   overflow: hidden;
   border-radius: 16px;
   box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.75);
-  background-color: RGBA(0, 0, 0, 2);
+  background-color: #00151a;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   &:hover,
   :focus {

@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 export const Header = styled.header`
   margin-bottom: 50px;
+
   top: 0;
   left: 0;
   display: flex;
@@ -49,6 +50,7 @@ export const Logo = styled.p`
   font-weight: 900;
   margin: 0;
   color: #ffffff;
+  text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8;
 `;
 
 export const Link = styled(NavLink)`
@@ -58,16 +60,16 @@ export const Link = styled(NavLink)`
   color: black;
   font-weight: 500;
   &.active {
-    text-decoration: underline;
-    color: white;
-    font-size: 24px;
+    /* text-decoration: underline; */
+    color: #ffffff;
+    text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8;
+    font-size: 32px;
     /* background-color: #ffaa00; */
   }
 
   :hover,
   :focus {
-    opacity: 0.8;
-
-    transition: all $transition-duration $transition-timing;
+    transition: 0.5s;
+    transform: scale(1.02);
   }
 `;
