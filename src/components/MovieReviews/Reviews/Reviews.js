@@ -1,27 +1,27 @@
 import {
   ConteinerAvatar,
   AvatarName,
-  ImageAvatar,
+  //   ImageAvatar,
   ReviewsData,
   PanelInfo,
   ContainerReviews,
 } from './Reviews.styled';
 
 const Reviews = ({ data }) => {
-  const { author_details, author, created_at, content, avatarPath } = data;
+  const { author, created_at, content } = data;
 
   return (
     <ContainerReviews>
       <PanelInfo>
         <ConteinerAvatar>
-          <ImageAvatar
+          {/* <ImageAvatar
             src={
               data.author_details?.avatar_path?.includes('https:')
                 ? author_details.avatar_path.slice(1)
                 : `../../../../assets/Images/none.jpg${avatarPath}`
             }
             alt=""
-          />
+          /> */}
           <AvatarName>{author}</AvatarName>
         </ConteinerAvatar>
         <span>{created_at}</span>
