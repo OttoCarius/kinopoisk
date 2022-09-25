@@ -11,7 +11,7 @@ const CardFilm = ({ itemData }) => {
           src={
             poster_path
               ? `https://image.tmdb.org/t/p/w500${poster_path}`
-              : `../../../assets/Images/placeholder.png`
+              : `https://upload.wikimedia.org/wikipedia/commons/f/fc/No_picture_available.png`
           }
           alt=""
         />
