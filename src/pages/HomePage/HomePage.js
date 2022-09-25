@@ -10,7 +10,10 @@ const HomePage = () => {
     FilmsAPI.fetchPopularFilms()
       .then(data => {
         Loading.circle({
-          svgColor: '#ff6b01',
+          svgColor: '#33ffff',
+          cssAnimationDuration: 800,
+          height: '200',
+          width: '200',
         });
         setFilms(data);
       })
