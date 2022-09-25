@@ -18,7 +18,7 @@ const Reviews = ({ data }) => {
             src={
               data.author_details?.avatar_path?.includes('https:')
                 ? author_details.avatar_path.slice(1)
-                : `www.gravatar.com/avatar${avatarPath}`
+                : `../../../../assets/Images/none.jpg${avatarPath}`
             }
             alt=""
           />
