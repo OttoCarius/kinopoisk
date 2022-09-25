@@ -33,10 +33,22 @@ export const ImageAvatar = styled.img`
 `;
 
 export const AvatarName = styled.span`
+  font-family: Georgia, serif;
+  font-size: 16px;
+  letter-spacing: 0.8px;
+  word-spacing: 3.2px;
+
+  font-weight: 700;
+  text-decoration: none solid rgb(68, 68, 68);
+  font-style: italic;
+  font-variant: normal;
+  text-transform: capitalize;
+
   margin-left: 10px;
 `;
 
 export const ReviewsData = styled.div`
-  background-color: #fff;
+  background-color: #006666;
   padding: 20px;
+  color: white;
 `;
