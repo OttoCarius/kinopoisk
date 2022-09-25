@@ -1,5 +1,27 @@
-import React from 'react';
+import { useState, useEffect } from 'react';
+import { useParams } from 'react-router-dom';
+import MovieCreditsCard from './CastCard/CastCard';
+import * as FetchAPI from '../../services/Api';
+import { Loading } from 'notiflix/build/notiflix-loading-aio';
 
-export default function MovieCast() {
-  return <div>MovieCast</div>;
-}
+const MovieCredits = () => {
+  const params = useParams();
+  const [actors, setActors] = useState([]);
+
+  useEffect(() => {
+    FetchAPI.fetchMovieCast(params.id)
+      .then(data => {
+        Loading.circle({
+          svgColor: '#ff6b01',
+        });
+        setActors(data);
+      })
+      .finally(() => {
+        Loading.remove();
+      });
+  }, [params.id]);
+
+  return <>{actors && <MovieCreditsCard data={actors} />}</>;
+};
+
+export default MovieCredits;

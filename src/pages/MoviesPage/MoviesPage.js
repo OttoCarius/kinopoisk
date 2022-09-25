@@ -22,6 +22,11 @@ const MoviesPage = () => {
             svgColor: '#ff6b01',
           });
           setFilms(data);
+          if (data.length === 0) {
+            Notify.info('Nothing found', {
+              autoClose: 2000,
+            });
+          }
         })
         .finally(() => {
           Loading.remove();
@@ -35,12 +40,14 @@ const MoviesPage = () => {
 
   const handleSubmit = e => {
     e.preventDefault();
+    e.target.reset();
 
     if (searchValue === '') {
       Notify.failure(' Please enter the name!');
 
       return;
     }
+
     setQuery(searchValue);
   };
 

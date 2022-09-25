@@ -2,8 +2,6 @@ import { InputContainer, ButtonSubmit, Input, Container } from './Form.styled';
 import PropTypes from 'prop-types';
 import Message from '../..//../components/Message/Message';
 
-// import { ToastContainer, toast } from 'react-toastify';
-// import 'react-toastify/dist/ReactToastify.css';
 import { BsSearch } from 'react-icons/bs';
 
 const Form = ({ handleSubmit, handleInputChange, query }) => {
