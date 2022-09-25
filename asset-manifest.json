@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/kinopoisk/static/css/main.a451ed08.css",
-    "main.js": "/kinopoisk/static/js/main.1a3eeaed.js",
+    "main.js": "/kinopoisk/static/js/main.926f5873.js",
     "static/js/680.da7b2403.chunk.js": "/kinopoisk/static/js/680.da7b2403.chunk.js",
-    "static/js/806.02742c22.chunk.js": "/kinopoisk/static/js/806.02742c22.chunk.js",
+    "static/js/806.73bf3f29.chunk.js": "/kinopoisk/static/js/806.73bf3f29.chunk.js",
     "static/js/703.a15978c8.chunk.js": "/kinopoisk/static/js/703.a15978c8.chunk.js",
-    "static/js/418.563c29c4.chunk.js": "/kinopoisk/static/js/418.563c29c4.chunk.js",
+    "static/js/418.8e8e8f6a.chunk.js": "/kinopoisk/static/js/418.8e8e8f6a.chunk.js",
     "static/js/288.ce606334.chunk.js": "/kinopoisk/static/js/288.ce606334.chunk.js",
     "static/js/589.5376d7a9.chunk.js": "/kinopoisk/static/js/589.5376d7a9.chunk.js",
     "static/js/497.d7a0635b.chunk.js": "/kinopoisk/static/js/497.d7a0635b.chunk.js",
@@ -14,11 +14,11 @@
     "static/js/126.0af86251.chunk.js": "/kinopoisk/static/js/126.0af86251.chunk.js",
     "index.html": "/kinopoisk/index.html",
     "main.a451ed08.css.map": "/kinopoisk/static/css/main.a451ed08.css.map",
-    "main.1a3eeaed.js.map": "/kinopoisk/static/js/main.1a3eeaed.js.map",
+    "main.926f5873.js.map": "/kinopoisk/static/js/main.926f5873.js.map",
     "680.da7b2403.chunk.js.map": "/kinopoisk/static/js/680.da7b2403.chunk.js.map",
-    "806.02742c22.chunk.js.map": "/kinopoisk/static/js/806.02742c22.chunk.js.map",
+    "806.73bf3f29.chunk.js.map": "/kinopoisk/static/js/806.73bf3f29.chunk.js.map",
     "703.a15978c8.chunk.js.map": "/kinopoisk/static/js/703.a15978c8.chunk.js.map",
-    "418.563c29c4.chunk.js.map": "/kinopoisk/static/js/418.563c29c4.chunk.js.map",
+    "418.8e8e8f6a.chunk.js.map": "/kinopoisk/static/js/418.8e8e8f6a.chunk.js.map",
     "288.ce606334.chunk.js.map": "/kinopoisk/static/js/288.ce606334.chunk.js.map",
     "589.5376d7a9.chunk.js.map": "/kinopoisk/static/js/589.5376d7a9.chunk.js.map",
     "497.d7a0635b.chunk.js.map": "/kinopoisk/static/js/497.d7a0635b.chunk.js.map",
@@ -28,6 +28,6 @@
   },
   "entrypoints": [
     "static/css/main.a451ed08.css",
-    "static/js/main.1a3eeaed.js"
+    "static/js/main.926f5873.js"
   ]
 }
