@@ -3,7 +3,6 @@ import { NavLink } from 'react-router-dom';
 
 export const Header = styled.header`
   margin-bottom: 50px;
-
   top: 0;
   left: 0;
   display: flex;
@@ -23,22 +22,13 @@ export const Header = styled.header`
     padding-right: 15px;
     padding-left: 15px;
   }
-
   @media screen and (min-width: 768px) {
     width: 768px;
   }
-
   @media screen and (min-width: 1280px) {
     width: 1280px;
   }
 `;
-
-// export const StyledCont = styled.div`
-//   max-width: 1240px;
-//   display: flex;
-//   justify-content: space-between;
-//   align-items: center;
-// `;
 
 export const StyledNav = styled.nav``;
 
@@ -51,6 +41,14 @@ export const Logo = styled.p`
   margin: 0;
   color: #ffffff;
   text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8;
+
+  @media screen and (max-width: 560px) {
+    font-size: 24px;
+    letter-spacing: 0.6px;
+    word-spacing: 3.2px;
+    font-weight: 600;
+    margin: 0 10px;
+  }
 `;
 
 export const Link = styled(NavLink)`
@@ -59,12 +57,22 @@ export const Link = styled(NavLink)`
   text-decoration: none;
   color: black;
   font-weight: 500;
+
   &.active {
-    /* text-decoration: underline; */
     color: #ffffff;
     text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8;
     font-size: 32px;
-    /* background-color: #ffaa00; */
+    @media screen and (max-width: 1280px) {
+      font-size: 26px;
+    }
+
+    @media screen and (max-width: 600px) {
+      margin-right: 20px;
+    }
+
+    @media screen and (max-width: 560px) {
+      font-size: 24px;
+    }
   }
 
   :hover,

@@ -8,6 +8,10 @@ export const ContainerFilmDetails = styled.div`
   border: 0.5px solid #fff;
   background-color: #006666;
   color: #fff;
+  @media screen and (max-width: 600px) {
+    max-width: 470px;
+  }
+
   @media screen and (max-width: 480px) {
     max-width: 310px;
   }
@@ -27,6 +31,11 @@ export const ImagePoster = styled.img`
   border: 3px solid #fff;
   width: 320px;
   height: 460px;
+  @media screen and (max-width: 600px) {
+    width: 280px;
+    height: 400px;
+  }
+
   @media screen and (max-width: 480px) {
     width: 250px;
     height: 350px;

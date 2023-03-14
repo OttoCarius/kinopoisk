@@ -14,5 +14,14 @@ export const GenerateGenres = genresId => {
 };
 
 const Genres = styled.span`
+  padding: 6px 0;
   color: #ff6b01;
+
+  @media screen and (max-width: 770px) {
+    font-size: 13px;
+  }
+
+  @media screen and (max-width: 480px) {
+    font-size: 18px;
+  }
 `;

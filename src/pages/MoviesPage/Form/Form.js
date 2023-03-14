@@ -1,32 +1,32 @@
-import { InputContainer, ButtonSubmit, Input, Container } from './Form.styled';
+import { Container } from './Form.styled';
 import PropTypes from 'prop-types';
 import Message from '../..//../components/Message/Message';
-
-import { BsSearch } from 'react-icons/bs';
+import { StyledSearch, StyledInput } from './Form.styled';
+// import { BsSearch } from 'react-icons/bs';
 
 const Form = ({ handleSubmit, handleInputChange, query }) => {
   return (
     <Container>
       <form onSubmit={handleSubmit}>
-        <InputContainer>
+        <StyledSearch>
           {query ? (
-            <Input
+            <StyledInput
               placeholder="Type to search"
               type="text"
               onChange={handleInputChange}
             />
           ) : (
-            <Input
+            <StyledInput
               type="text"
               placeholder="Type to search"
               onChange={handleInputChange}
             />
           )}
 
-          <ButtonSubmit type="submit">
+          {/* <ButtonSubmit type="submit">
             <BsSearch size="20px" color="black" />
-          </ButtonSubmit>
-        </InputContainer>
+          </ButtonSubmit> */}
+        </StyledSearch>
       </form>
       <div> {query.length < 1 && <Message />}</div>
     </Container>

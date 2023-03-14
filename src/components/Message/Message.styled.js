@@ -26,8 +26,6 @@ export const BoxMessage = styled.div`
 
 export const MessageText = styled.p`
   color: 00563F;
-  /* text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 10px #33ffff,
-    0 0 12px #33ffff, 0 0 15px #33ffff, 0 0 15px #33ffff, 0 0 20px #33ffff; */
   font-size: ${p => p.theme.fontSizes.xxl};
   font-weight: ${p => p.theme.fontWeights.semiBold};
   text-transform: ${p => p.theme.textTransform.upCase};
@@ -42,4 +40,15 @@ export const MessageText = styled.p`
   -moz-background-clip: text;
   background-clip: text;
   text-shadow: 0px 10px 10px rgba(255, 255, 255, 0.3);
+
+  @media (max-width: 770px) {
+    font-size: ${p => p.theme.fontSizes.l};
+  }
+
+  @media (max-width: 450px) {
+    font-size: ${p => p.theme.fontSizes.m};
+  }
+  @media (max-width: 360px) {
+    font-size: ${p => p.theme.fontSizes.s};
+  }
 `;
